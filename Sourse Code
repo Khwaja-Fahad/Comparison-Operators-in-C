@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    int x = 3;
+    unsigned int u = 100;
+    char c = 'A';
+    float y = 5.4;
+    int k = 78;
+
+    k = 9 / 10 + x - y;
+
+    printf("OUTPUT = %d\n", x < y);
+    printf("OUTPUT = %d\n", x > y);
+    printf("output = %f", x >= y);
+
+    return 0;
+}
+
+
